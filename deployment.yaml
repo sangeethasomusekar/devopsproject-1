@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: devopsproject-1
+  name: new-deployment
   labels:
     app: km
 spec:
