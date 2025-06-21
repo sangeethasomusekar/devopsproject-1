@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devopsproject-1
+  labels:
+    app: km
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: km
+  template:
+    metadata:
+      labels:
+        app: km
+    spec:
+      containers:
+      - name: my-container
+        image: prsdocker123/project2
+        ports:
+        - containerPort: 85
