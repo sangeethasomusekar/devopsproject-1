@@ -18,5 +18,5 @@ spec:
       - name: my-deployment
         image: prsdocker123/project-1
         ports:
-        - containerPort: 85
+        - containerPort: 80
 
