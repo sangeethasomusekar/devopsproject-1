@@ -7,6 +7,6 @@ spec:
   selector:
      app: my-service
   ports:
-    - port: 8080
-      targetPort: 8080
+    - port: 85
+      targetPort: 85
       nodePort: 300085
