@@ -15,7 +15,7 @@ spec:
         app: my-deployment
     spec:
       containers:
-      - name: my-container
+      - name: my-deployment
         image: prsdocker123/devopsproject-1
         ports:
         - containerPort: 80
